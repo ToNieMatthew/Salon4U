@@ -1,0 +1,101 @@
+:root {  /* Colors - Light Theme */
+  --color-primary: #FF6B6B; /* Salon red */
+  --color-primary-light: #FFE6E6;
+  --color-primary-dark: #E55858;
+  --color-primary-rgb: 255, 107, 107;
+  --color-secondary: #4ECDC4; /* Mint green */
+  --color-secondary-light: #6ED9D2;
+  --color-secondary-dark: #3BBCB3;
+  --color-accent: #FFD166; /* Gold accent */
+  
+  --color-success: #10B981;
+  --color-success-rgb: 16, 185, 129;
+  --color-warning: #F59E0B;
+  --color-warning-rgb: 245, 158, 11;
+  --color-error: #EF4444;
+  --color-error-rgb: 239, 68, 68;
+  
+  --color-background: #F8F9FA;
+  --color-surface: #FFFFFF;
+  --color-surface-variant: #F1F3F5;
+  
+  --color-text-primary: #212529;
+  --color-text-secondary: #495057;
+  --color-text-tertiary: #868E96;
+  --color-border: #DEE2E6;
+  
+  --color-status-success: #10B981;
+  --color-status-warning: #F59E0B;
+  --color-status-error: #EF4444;
+  
+  /* Typography */
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  
+  /* Spacing */
+  --spacing-0: 0;
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+  
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-full: 9999px;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.05);
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 350ms ease;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --color-primary: #FF6B6B; /* Keep the red */
+  --color-primary-light: #FF8E8E;
+  --color-primary-dark: #E55858;
+  --color-secondary: #4ECDC4;
+  --color-secondary-light: #6ED9D2;
+  --color-secondary-dark: #3BBCB3;
+  
+  --color-background: #121212;
+  --color-surface: #1E1E1E;
+  --color-surface-variant: #2D2D2D;
+  
+  --color-text-primary: #F8F9FA;
+  --color-text-secondary: #CED4DA;
+  --color-text-tertiary: #ADB5BD;
+  --color-border: #444444;
+  
+  /* Status colors adjusted for dark mode */
+  --color-status-success: #34D399;
+  --color-status-warning: #FBBF24;
+  --color-status-error: #F87171;
+  
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.25);
+}

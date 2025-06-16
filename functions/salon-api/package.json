@@ -1,0 +1,20 @@
+{
+  "name": "salon-api",
+  "version": "2.0.0",
+  "description": "Google Cloud Function - Main API for Salon Fryzjerski",
+  "main": "index.js",
+  "engines": {
+    "node": "18"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "@google-cloud/storage": "^7.7.0",
+    "@google-cloud/pubsub": "^4.1.0"
+  },
+  "scripts": {
+    "start": "npx functions-framework --target=salon-api",
+    "deploy": "gcloud functions deploy salon-api --runtime nodejs18 --trigger-http --allow-unauthenticated --region europe-west1 --memory 256MB --timeout 60s"
+  },
+  "keywords": ["salon", "google-cloud", "api"],
+  "author": "Salon Fryzjerski"
+}
